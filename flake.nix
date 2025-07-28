@@ -13,6 +13,7 @@
           import = path: path; # let the module system know what we are exporting
         in
         {
+          
           acer-aspire-4810t = import ./acer/aspire/4810t;
           airis-n990 = import ./airis/n990;
           aoostar-r1-n100 = import ./aoostar/r1/n100;
@@ -154,6 +155,7 @@
           hp-elitebook-845g9 = import ./hp/elitebook/845/g9;
           hp-probook-440G5 = import ./hp/probook/440G5;
           hp-laptop-14s-dq2024nf = import ./hp/laptop/14s-dq2024nf;
+          hp-pavilion-15-eh3xxx = import ./hp/pavilion/15-eh3xxx;
           huawei-machc-wa = import ./huawei/machc-wa;
           hp-notebook-14-df0023 = import ./hp/notebook/14-df0023;
           intel-nuc-5i5ryb = import ./intel/nuc/5i5ryb;
